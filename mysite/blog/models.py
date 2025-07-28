@@ -1,6 +1,6 @@
 from django.db import models
 from django.utils import timezone
-
+from django.contrib.auth.models import User
 
 class Post(models.Model):
     class Status(models.TextChoices):
@@ -15,7 +15,14 @@ class Post(models.Model):
         unique=True,
         db_index=True
     )
+    author = models.ForeignKey(
+        User,
+        on_delete=models.CASCADE,
+        related_name='%(app_label)s_posts'
+    )
+
     body = models.TextField()
+
     publish = models.DateTimeField(
         default=timezone.now
     )
