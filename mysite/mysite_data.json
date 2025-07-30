@@ -1,0 +1,1422 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2025-07-28T08:09:38.201Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Что такое Django?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2025-07-28T18:02:44.193Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Естественный прирост и воспроизводство населения мира",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2025-07-28T18:03:00.033Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Another Post",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2025-07-28T18:05:36.049Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Как играть в шахматы: правила и инструкция для начинающих",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2025-07-28T18:06:13.088Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Полного глоссария шахматных терминов — словаря основных понятий не существует. Он может насчитывать от нескольких сотен до нескольких тысяч слов — все зависит от источника и уровня детализации. Но игр",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2025-07-28T18:07:08.132Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Чем подкормить розы?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2025-07-28T18:18:48.402Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Полного глоссария шахматных терминов — словаря основных понятий не существует. Он может насчитывать от нескольких сотен до нескольких тысяч слов — все зависит от источника и уровня детализации. Но игр",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2025-07-28T18:21:02.918Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "10 простых и быстрых салатов: рецепты для вкусного ужина за 10 минут",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2025-07-29T07:36:25.395Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Простые и быстрые салаты: рецепты для вкусного ужина за 10 минут",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Slug\", \"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2025-07-29T07:37:34.123Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Чем подкормить розы?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\", \"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2025-07-29T07:38:11.876Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Естественный прирост и воспроизводство населения мира",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\", \"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2025-07-29T07:38:54.592Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Как играть в шахматы: правила и инструкция для начинающих",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\", \"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2025-07-29T07:39:40.285Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Что такое Django?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2025-07-29T07:40:32.321Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Введение в Python",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2025-07-29T07:40:50.439Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Основы веб-разработки",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2025-07-29T08:43:40.898Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Основы веб-разработки",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2025-07-29T08:44:07.559Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Основы веб-разработки",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2025-07-29T08:44:23.614Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Основы веб-разработки",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2025-07-29T08:44:42.611Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Основы веб-разработки",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2025-07-29T09:55:10.686Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Comment by Тембулат on Основы веб-разработки",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2025-07-29T09:55:10.686Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Comment by Тембулат on Основы веб-разработки",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2025-07-29T09:55:10.686Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Comment by ewfew on Основы веб-разработки",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2025-07-30T07:45:18.620Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Что такое Django?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2025-07-30T07:46:10.945Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Что такое Django?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2025-07-30T07:46:17.235Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Введение в Python",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2025-07-30T07:46:23.326Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "Python",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2025-07-30T07:46:33.795Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Что такое Django?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2025-07-30T07:46:40.719Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Основы веб-разработки",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2025-07-30T07:46:45.492Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Введение в Python",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2025-07-30T07:46:52.787Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": "other",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2025-07-30T07:46:57.719Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Естественный прирост и воспроизводство населения мира",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2025-07-30T07:47:02.805Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "chess",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2025-07-30T07:47:08.123Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Как играть в шахматы: правила и инструкция для начинающих",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2025-07-30T07:47:12.462Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Чем подкормить розы?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2025-07-30T07:47:26.292Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "9",
+    "object_repr": "food",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2025-07-30T07:47:34.760Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Простые и быстрые салаты: рецепты для вкусного ужина за 10 минут",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2025-07-30T09:04:20.340Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "Markdown-post",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2025-07-30T13:19:29.113Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Как играть в шахматы: правила и инструкция для начинающих",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2025-07-30T13:19:32.206Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Основы веб-разработки",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2025-07-30T13:21:11.908Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "127.0.0.1:800",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2025-07-30T13:26:48.282Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "127.0.0.1:8000",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2025-07-30T13:27:07.995Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "localhost:8000",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 7,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 7,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 7,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 7,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 8,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 8,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 8,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 8,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 9,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 9,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 9,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 9,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 10,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 10,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 10,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 10,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add site",
+    "content_type": 11,
+    "codename": "add_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change site",
+    "content_type": 11,
+    "codename": "change_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete site",
+    "content_type": 11,
+    "codename": "delete_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view site",
+    "content_type": 11,
+    "codename": "view_site"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$UjBsMhi4LOCXhZzIzc7jDB$8//93NCQ3eIJi/wdYc3S6ijywpSVAXMrzdHXE53RWlw=",
+    "last_login": "2025-07-29T07:33:56.796Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@admin.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-07-28T08:00:33.557Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "blog",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "blog",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "sites",
+    "model": "site"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "6iiuk5q7hvgz9l24tnjpr1ywhmpr9g4j",
+  "fields": {
+    "session_data": ".eJxVjEsOwiAUAO_C2hBe-dal-56BwOMhVQNJaVfGuxuSLnQ7M5k38-HYiz86bX5N7MqAXX5ZDPikOkR6hHpvHFvdtzXykfDTdr60RK_b2f4NSuhlbGU2EbQwGaaMpJwkMQfQVlhhpEYFk4VodIoCg8MZCdAhklEZRUJgny_Kszfp:1ugImy:6Wn3nTg924QEqDXTltGMJcc0GnmWTWY7-HMVQFOAtQs",
+    "expire_date": "2025-08-11T08:00:52.986Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ax87bpkffxww98cpf4urtj2ojfc09627",
+  "fields": {
+    "session_data": ".eJxVjEsOwiAUAO_C2hBe-dal-56BwOMhVQNJaVfGuxuSLnQ7M5k38-HYiz86bX5N7MqAXX5ZDPikOkR6hHpvHFvdtzXykfDTdr60RK_b2f4NSuhlbGU2EbQwGaaMpJwkMQfQVlhhpEYFk4VodIoCg8MZCdAhklEZRUJgny_Kszfp:1ugeqS:SWHz-auZJIdbF0uhvjdLvJPTExzgoZHF76Ut6XEEwrA",
+    "expire_date": "2025-08-12T07:33:56.801Z"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 1,
+  "fields": {
+    "title": "Что такое Django?",
+    "slug": "django-vedenie",
+    "author": 1,
+    "body": "<h1>Django</h1>\r\n    <p>\r\n        <b>Django</b> — это высокоуровневый Python веб-фреймворк, который позволяет быстро создавать безопасные и поддерживаемые веб-сайты. Созданный опытными разработчиками, Django берёт на себя большую часть хлопот веб-разработки, поэтому вы можете сосредоточиться на написании своего веб-приложения без необходимости изобретать велосипед. Он бесплатный и с открытым исходным кодом, имеет растущее и активное сообщество, отличную документацию и множество вариантов как бесплатной, так и платной поддержки.\r\n    </p>\r\n\r\n    <h2>Что делает Django особенным?</h2>\r\n    <ul>\r\n        <li>\r\n            <h3>Полным</h3>\r\n            <p>Django следует философии «Всё включено» и предоставляет почти всё, что разработчики могут захотеть сделать «из коробки». Поскольку всё, что вам нужно, является частью единого «продукта», всё это безупречно работает вместе, соответствует последовательным принципам проектирования и имеет обширную и актуальную документацию.</p>\r\n        </li>\r\n        <li>\r\n            <h3>Разносторонним</h3>\r\n            <p>Django может быть (и был) использован для создания практически любого типа веб-сайтов — от систем управления контентом и wiki до социальных сетей и новостных сайтов. Он может работать с любой клиентской средой и может доставлять контент практически в любом формате (включая HTML, RSS-каналы, JSON, XML и т. д.). Сайт, который вы сейчас читаете, создан с помощью Django!</p>\r\n            <p>Хотя Django предоставляет решения практически для любой функциональности, которая вам может понадобиться (например, для нескольких популярных баз данных, шаблонизаторов и т. д.), внутренне он также может быть расширен сторонними компонентами, если это необходимо.</p>\r\n        </li>\r\n        <li>\r\n            <h3>Безопасным</h3>\r\n            <p>Django помогает разработчикам избежать многих распространённых ошибок безопасности, предоставляя фреймворк, разработанный чтобы «делать правильные вещи» для автоматической защиты сайта. Например, Django предоставляет безопасный способ управления учётными записями пользователей и паролями, избегая распространённых ошибок, таких как размещение информации о сеансе в файлы cookie, где она уязвима (вместо этого файлы cookie содержат только ключ, а фактические данные хранятся в базе данных) или непосредственное хранение паролей вместо хэша пароля.</p>\r\n        </li>\r\n    </ul>",
+    "publish": "2025-07-28T08:05:16Z",
+    "created": "2025-07-28T08:09:38.200Z",
+    "updated": "2025-07-30T07:46:33.787Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 3,
+  "fields": {
+    "title": "Естественный прирост и воспроизводство населения мира",
+    "slug": "prirost-naseleniya",
+    "author": 1,
+    "body": "<h1>Естественное движение населения</h1>\r\n<p>Естественное движение населения — это обобщенное название совокупности рождений и смертей, изменяющих численность населения естественным путем. В основе этого вида движения населения лежат два процесса — рождаемость и смертность. Естественное движение населения изучается с помощью основного показателя — естественного прироста или убыли.</p>\r\n\r\n<h2>Естественный прирост</h2>\r\n<p>Естественный прирост — это абсолютная величина разницы между числом родившихся и умерших за определенный промежуток времени. Отрицательное значение этого показателя будет называться естественной убылью, все чаще встречающейся в научном обороте при изучении демографической обстановки в странах Европы. Иногда для расчета естественного прироста населения можно воспользоваться разницей между общим приростом населения и миграционным приростом.</p>\r\n\r\n<h3>Данные о естественном приросте</h3>\r\n<p>По данным за 2003 г. в мире естественный прирост в абсолютных величинах составлял:</p>\r\n<ul>\r\n    <li>в год — 73 млн чел.;</li>\r\n    <li>в месяц — 6 млн чел.;</li>\r\n    <li>в день — 200 тыс. чел.;</li>\r\n    <li>в час — 8 тыс. чел.;</li>\r\n    <li>в минуту — 139 человек;</li>\r\n    <li>в секунду — 2,3 чел.</li>\r\n</ul>\r\n\r\n<h2>Воспроизводство населения</h2>\r\n<p>«Естественное движение» НЕ тождественно «воспроизводству населения». «Воспроизводство населения» — более широкое понятие.</p>\r\n<p>Воспроизводство населения — это процесс постоянного возобновления поколений людей, рассматриваемый как совокупность трех видов движения населения: естественного, механического и социального.</p>\r\n\r\n<h3>Показатели воспроизводства населения</h3>\r\n<p>Воспроизводство населения изучается показателями рождаемости, смертности, естественного прироста/убыли, а также некоторыми специальными коэффициентами:</p>\r\n<ul>\r\n    <li><strong>Скорость обновления состава жителей (ротация)</strong> — сумма общего коэффициента рождаемости и общего коэффициента смертности; чем больше ротация, тем меньше средняя продолжительность жизни;</li>\r\n    <li><strong>Коэффициент жизненности</strong> — отношение числа родившихся к числу умерших;</li>\r\n    <li><strong>Брутто-коэффициент воспроизводства</strong> (валовой коэффициент воспроизводства населения, показатель замещения поколений, не учитывающий смертность) — среднее число девочек, которое бы родила одна женщина, прожившая до конца репродуктивного периода при сохранении на протяжении ее жизни современных уровней рождаемости в каждом возрасте;</li>\r\n    <li><strong>Нетто-коэффициент воспроизводства</strong> (чистый коэффициент воспроизводства населения, количественная мера замещения материнского поколения дочерним) — среднее число девочек, рожденных за всю жизнь одной женщиной, дожившей до конца репродуктивного возраста при данных уровнях рождаемости и смертности. Показатель больше 1 соответствует расширенному типу воспроизводства; меньше 1 — суженному, равный 1 — простому.</li>\r\n</ul>",
+    "publish": "2025-07-28T17:56:54Z",
+    "created": "2025-07-28T18:02:44.191Z",
+    "updated": "2025-07-30T07:46:57.712Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 4,
+  "fields": {
+    "title": "Как играть в шахматы: правила и инструкция для начинающих",
+    "slug": "kak-igrat-v-shahmaty",
+    "author": 1,
+    "body": "<h1>Шахматы: Древняя игра для современных умов</h1>\r\n<p>Древняя игра, которая насчитывает около полутора тысяч лет, популярна и в наше время. Шахматы могут быть как настольной игрой, так и серьезным видом спорта. За звание чемпиона мира по шахматам сражаются лучшие умы человечества. Научиться играть в шахматы в самом раннем детстве — это возможность развить логику, память и абстрактное мышление. «Лента.ру» рассказывает о важных правилах игры в шахматы для начинающих.</p>\r\n\r\n<h2>Основы игры в шахматы</h2>\r\n<p>Шахматы — это стратегическая игра, рассчитанная на двоих, в которой каждый из партнеров, совершая фигурами ходы на доске из 64 клеток, стремится объявить мат королю соперника, то есть поразить главную фигуру противника. Кроме того, шахматы — это официально признанный вид спорта.</p>\r\n\r\n<h2>Популярность шахмат в России</h2>\r\n<p>Шахматы в России переживают очередной пик популярности. Согласно исследованию аналитического центра НАФИ и страховой компании «Ингосстрах», онлайн-продажи шахматных досок в стране ежегодно растут на 65 процентов.</p>\r\n\r\n<h2>Правила игры в шахматы</h2>\r\n<p>В России правила игры в шахматы регламентируются приказом Министерства спорта России «Об утверждении правил вида спорта \"шахматы\"». Они соответствуют правилам, учрежденным Международной шахматной федерацией (ФИДЕ — Fédération Internationale des Échecs).</p>\r\n\r\n<h2>Шахматные термины для начинающих</h2>\r\n<p>Полного глоссария шахматных терминов — словаря основных понятий не существует. Он может насчитывать от нескольких сотен до нескольких тысяч слов — все зависит от источника и уровня детализации. Однако игра в шахматы для начинающих не требует глубокого погружения в мир черных и белых фигур — на первых порах достаточно усвоить базовые термины.</p>\r\n\r\n<h3>Базовые термины в шахматах</h3>\r\n<p>В беседе с «Лентой.ру» любитель игры с 30-летним стажем, обладатель первого взрослого разряда по шахматам Валерий Малай объяснил десять базовых шахматных терминов простыми словами:</p>\r\n\r\n<h4>Партия и матч</h4>\r\n<p><strong>Партия</strong> — это один поединок в шахматы, в ходе которого могут выиграть белые или черные, а в некоторых случаях может быть объявлена ничья. В спортивных шахматах время партии ограничено, а также существуют блиц-партии, на обдумывание ходов в которых у игроков очень мало времени. Несколько партий подряд называются <strong>матчем</strong>, победитель которого определяется по очкам от выигранных партий.</p>",
+    "publish": "2025-07-28T18:04:58Z",
+    "created": "2025-07-28T18:05:36.047Z",
+    "updated": "2025-07-30T13:19:29.108Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 6,
+  "fields": {
+    "title": "Чем подкормить розы?",
+    "slug": "chem-podkormit-rozy",
+    "author": 1,
+    "body": "<h1>Уход за розами: подкормка и защита</h1>\r\n<p>Розы — достаточно неприхотливые в уходе цветы: разные виды подходят для разных почв и температур, поэтому найти подходящий сорт для конкретных условий не составит труда. Однако чтобы розы как можно дольше радовали глаз пышными бутонами, важно правильно их удобрять. «Лента.ру» рассказывает, как правильно подкармливать розы весной, летом и осенью, какие средства стоит использовать и как еще можно помочь растениям цвести максимально долго.</p>\r\n\r\n<h2>Подкормка весной и летом</h2>\r\n<p>Повторноцветущие сорта роз после завершения первого цветения можно подкормить еще раз специальными комплексными удобрениями. Важно использовать средства с минимальным содержанием азота — внимательно изучайте состав на упаковке.</p>\r\n<p>А вот потребность в калийно-фосфорных удобрениях возрастает: именно они помогают обильному и длительному цветению, а также делают растение более устойчивыми к неблагоприятным факторам. Лучше использовать жидкие удобрения с микроэлементами. Приготовить раствор можно, смешав по 15 граммов аммиачной селитры и сернистого калия с 30 граммами суперфосфата, — им стоит опрыскивать или поливать розы по вечерам.</p>\r\n\r\n<h2>Осенняя подкормка роз</h2>\r\n<p>В этот период кусты роз постепенно прекращают вегетацию, поэтому важно обеспечить растение достаточным количеством питания. Осенняя подкормка поможет розам не только цвести пышнее, но и подготовиться к грядущим низким температурам.</p>\r\n<p>«С приближением осени характер подкормок снова меняется. Фосфорные и калийные удобрения (по 30 граммов каждого на куст), внесенные в сентябре, укрепят корневую систему и помогут побегам вызреть. А вот от азота в это время года нужно полностью отказаться: он может спровоцировать рост новых веточек, которые точно не успеют окрепнуть до морозов», — подчеркнула Мария Шуракова.</p>\r\n<p>Кроме того, в сентябре можно удобрять розы сульфатом калия и суперфосфатом. Готовят растворы одинаково: одну ложку вещества необходимо развести в 10 литрах воды. Расчет полива тоже не отличается — по три литра на один куст.</p>\r\n\r\n<h2>Подкормка в октябре</h2>\r\n<p>Еще одну подкормку надо внести в октябре — она позволит розам получить нужные им питательные вещества ранней весной, когда на стеблях начнут появляться первые почки. Подкармливать розы нужно теми же средствами, что и в сентябре.</p>\r\n\r\n<h2>Защита роз на зиму</h2>\r\n<p>Как только на улице похолодает так, что земля начнет подмерзать, розы нужно укрыть. Но перед этим кусты необходимо замульчировать — для этого можно использовать перегной или компост. Органические вещества станут дополнительной защитой для корней растения, если зима будет бесснежной, но морозной. А как только потеплеет, мульча начнет постепенно разлагаться, отдавая кустам нужные им полезные вещества.</p>\r\n<p>Мульчировать розы нужно слоем в 7-10 сантиметров. Важно отступить от корневой шейки на несколько сантиметров, чтобы она не сопрела в период оттепели.</p>",
+    "publish": "2025-07-28T18:06:50Z",
+    "created": "2025-07-28T18:07:08.131Z",
+    "updated": "2025-07-30T07:47:12.453Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 7,
+  "fields": {
+    "title": "Простые и быстрые салаты: рецепты для вкусного ужина за 10 минут",
+    "slug": "bystrye-salaty-10-minut",
+    "author": 1,
+    "body": "<ol>\r\n    <li>Нарежьте помидоры дольками.</li>\r\n    <li>Добавьте нарезанную брынзу и мелко нарезанный лук.</li>\r\n    <li>Заправьте оливковым маслом и посолите.</li>\r\n</ol>\r\n<p>Подавайте на плоском блюде, украсив зеленью.</p>\r\n\r\n<h3>Цезарь с курицей по-быстрому</h3>\r\n<p><strong>Упрощенная версия популярного ресторанного салата.</strong></p>\r\n<h4>Ингредиенты:</h4>\r\n<ul>\r\n    <li>200 г отварной курицы;</li>\r\n    <li>100 г ромен-салата;</li>\r\n    <li>50 г тертого сыра пармезан;</li>\r\n    <li>гренки;</li>\r\n    <li>соус Цезарь.</li>\r\n</ul>\r\n<h4>Способ приготовления:</h4>\r\n<ol>\r\n    <li>Нарежьте курицу и порвите салат.</li>\r\n    <li>В миске смешайте курицу, салат и гренки.</li>\r\n    <li>Заправьте соусом и посыпьте сыром.</li>\r\n</ol>\r\n<p>Подавайте в глубоких тарелках.</p>\r\n\r\n<h3>Морковный салат с чесноком и сметаной</h3>\r\n<p><strong>Простой и полезный салат, который готовится за 3 минуты.</strong></p>\r\n<h4>Ингредиенты:</h4>\r\n<ul>\r\n    <li>две моркови;</li>\r\n    <li>зубчик чеснока;</li>\r\n    <li>две ст. ложки сметаны;</li>\r\n    <li>соль по вкусу.</li>\r\n</ul>\r\n<h4>Способ приготовления:</h4>\r\n<ol>\r\n    <li>Натрите морковь на терке.</li>\r\n    <li>Выдавите чеснок (или потрите на мелкой терке) и добавьте к моркови.</li>\r\n    <li>Заправьте сметаной и посолите.</li>\r\n</ol>\r\n<p>Подавайте в маленьких мисочках.</p>\r\n\r\n<h3>Салат с тунцом, яйцом и огурцами</h3>\r\n<p><strong>Сытный, но легкий вариант для ужина.</strong></p>\r\n<h4>Ингредиенты:</h4>\r\n<ul>\r\n    <li>банка тунца;</li>\r\n    <li>два яйца;</li>\r\n    <li>огурец;</li>\r\n    <li>майонез, соль.</li>\r\n</ul>\r\n<h4>Способ приготовления:</h4>\r\n<ol>\r\n    <li>Отварите яйца и нарежьте их кубиками.</li>\r\n    <li>В миске смешайте тунца (без жидкости), яйца и нарезанный огурец.</li>\r\n    <li>Заправьте майонезом и посолите.</li>\r\n</ol>\r\n<p>Подавайте с ломтиками хлеба.</p>\r\n\r\n<h3>Салат с ветчиной, сыром и перцем</h3>\r\n<p><strong>Пикантный и питательный салат за 7 минут.</strong></p>\r\n<h4>Ингредиенты:</h4>\r\n<ul>\r\n    <li>150 г ветчины;</li>\r\n    <li>100 г сыра;</li>\r\n    <li>сладкий перец;</li>\r\n    <li>оливковое масло, соль.</li>\r\n</ul>\r\n<h4>Способ приготовления:</h4>\r\n<ol>\r\n    <li>Нарежьте ветчину, сыр и перец кубиками.</li>\r\n    <li>Смешайте все ингредиенты в миске.</li>\r\n    <li>Заправьте оливковым маслом и посолите.</li>\r\n</ol>\r\n<p>Подавайте на листьях салата.</p>",
+    "publish": "2025-07-28T18:19:12Z",
+    "created": "2025-07-28T18:21:02.917Z",
+    "updated": "2025-07-30T07:47:34.750Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 8,
+  "fields": {
+    "title": "Введение в Python",
+    "slug": "vvedenie-v-python",
+    "author": 1,
+    "body": "<article>\r\n    <h1>Введение в Python</h1>\r\n    <p><b>Python</b> — это высокоуровневый язык программирования, который стал популярным благодаря своей простоте и универсальности. Он используется в различных областях, включая веб-разработку, анализ данных, искусственный интеллект и автоматизацию.</p>\r\n\r\n    <h2>Почему Python?</h2>\r\n    <p>Python предлагает множество преимуществ:</p>\r\n    <ul>\r\n        <li>Легкость в изучении и использовании.</li>\r\n        <li>Большое количество библиотек и фреймворков.</li>\r\n        <li>Активное сообщество и поддержка.</li>\r\n    </ul>\r\n\r\n    <h2>Применение Python</h2>\r\n    <p>Python используется в различных сферах:</p>\r\n    <ol>\r\n        <li>Веб-разработка (Django, Flask).</li>\r\n        <li>Научные вычисления (NumPy, SciPy).</li>\r\n        <li>Машинное обучение (TensorFlow, scikit-learn).</li>\r\n    </ol>\r\n\r\n    <h2>Заключение</h2>\r\n    <p>Python — это мощный инструмент для разработчиков, который продолжает набирать популярность благодаря своей простоте и широким возможностям.</p>\r\n</article>",
+    "publish": "2025-07-29T07:40:21Z",
+    "created": "2025-07-29T07:40:32.319Z",
+    "updated": "2025-07-30T07:46:45.483Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 9,
+  "fields": {
+    "title": "Основы веб-разработки",
+    "slug": "osnovy-veb-razrabotki",
+    "author": 1,
+    "body": "<article>\r\n    <div>Веб-разработка — это процесс создания веб-сайтов и веб-приложений. Она включает в себя как фронтенд (клиентская часть), так и бэкенд (серверная часть) разработки.</div>\r\n    <h2>Фронтенд разработка</h2>\r\n    <div>Фронтенд разработка отвечает за то, что видит пользователь. Основные технологии:</div>\r\n  <div>  <ul>\r\n        <li><b>HTML</b> — язык разметки для создания структуры веб-страниц.</li>\r\n        <li><b>CSS</b> — язык стилей для оформления внешнего вида.</li>\r\n        <li><b>JavaScript</b> — язык программирования для добавления интерактивности.</li>\r\n    </ul>\r\n</div>\r\n    <h2>Бэкенд разработка</h2>\r\n    <p>Бэкенд разработка отвечает за логику и работу сервера. Основные технологии:</p>\r\n    <ol>\r\n        <li><b>Python</b> (Django, Flask).</li>\r\n        <li><b>Java</b> (Spring).</li>\r\n        <li><b>PHP</b> (Laravel).</li>\r\n    </ol>\r\n\r\n    <h2>Заключение</h2>\r\n    <p>Веб-разработка — это увлекательная и динамичная область, которая предлагает множество возможностей для творчества и инноваций.</p>\r\n</article>",
+    "publish": "2025-07-29T07:40:40Z",
+    "created": "2025-07-29T07:40:50.437Z",
+    "updated": "2025-07-30T13:19:32.198Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 10,
+  "fields": {
+    "title": "Markdown-post",
+    "slug": "markdown-post",
+    "author": 1,
+    "body": "This is a post formatted with markdown\r\n\r\n--------------------------------------\r\n\r\n*This is emphasized* and **this is more emphasized**.\r\n\r\nHere is a list:\r\n\r\n* One\r\n\r\n* Two\r\n\r\n* Three\r\n\r\n \r\n\r\nAnd a [link to the Django website](https://www.djangoproject.com/)",
+    "publish": "2025-07-30T09:03:48Z",
+    "created": "2025-07-30T09:04:20.331Z",
+    "updated": "2025-07-30T09:04:20.331Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 4,
+  "fields": {
+    "post": 9,
+    "name": "Николай",
+    "email": "nicolaysemenov@gmail.com",
+    "body": "Что общего между Python и Java. Они находятся в топе языков для веб-разработки.",
+    "created": "2025-07-29T09:59:47.402Z",
+    "updated": "2025-07-29T09:59:47.402Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 5,
+  "fields": {
+    "post": 9,
+    "name": "Максим",
+    "email": "maksimbelugin@gmail.com",
+    "body": "Все же Java это энтерпрайз разработка, а Python малый бизнес. Поэтому выбирать между двумя языками надо, исходя из того, где вы хотите работать",
+    "created": "2025-07-29T10:00:41.455Z",
+    "updated": "2025-07-29T10:00:41.455Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 6,
+  "fields": {
+    "post": 9,
+    "name": "Андрей",
+    "email": "adreyka@yandex.ru",
+    "body": "Python в ML больше востребован",
+    "created": "2025-07-29T10:02:22.009Z",
+    "updated": "2025-07-29T10:02:22.009Z",
+    "active": true
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "localhost:8000",
+    "name": "localhost:8000"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "music",
+    "slug": "music"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "programming",
+    "slug": "programming"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "django",
+    "slug": "django"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 4,
+  "fields": {
+    "name": "jazz",
+    "slug": "jazz"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 5,
+  "fields": {
+    "name": "Python",
+    "slug": "python"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 6,
+  "fields": {
+    "name": "python",
+    "slug": "python_1"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 7,
+  "fields": {
+    "name": "other",
+    "slug": "other"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 8,
+  "fields": {
+    "name": "chess",
+    "slug": "chess"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 9,
+  "fields": {
+    "name": "food",
+    "slug": "food"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 10,
+  "fields": {
+    "name": "markdown",
+    "slug": "markdown"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 6,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 7,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 8
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 8,
+  "fields": {
+    "tag": 6,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 9,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 9
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 10,
+  "fields": {
+    "tag": 6,
+    "content_type": 7,
+    "object_id": 9
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 11,
+  "fields": {
+    "tag": 6,
+    "content_type": 7,
+    "object_id": 8
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 12,
+  "fields": {
+    "tag": 7,
+    "content_type": 7,
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 13,
+  "fields": {
+    "tag": 8,
+    "content_type": 7,
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 14,
+  "fields": {
+    "tag": 7,
+    "content_type": 7,
+    "object_id": 6
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 15,
+  "fields": {
+    "tag": 9,
+    "content_type": 7,
+    "object_id": 7
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 16,
+  "fields": {
+    "tag": 7,
+    "content_type": 7,
+    "object_id": 7
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 17,
+  "fields": {
+    "tag": 10,
+    "content_type": 7,
+    "object_id": 10
+  }
+}
+]
