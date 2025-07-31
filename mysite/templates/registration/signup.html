@@ -1,0 +1,20 @@
+{% extends "blog/base.html" %}
+
+{% block title %}{% endblock title %}
+
+{% block content %}
+    <h2> Sign Up </h2>
+    <form method="post">
+        {% csrf_token %}
+        {% for field in form %}
+            <p>
+                {{ field.label }}: {{ field }}
+                {% if field.errors %}
+                    {{ field.errors }}
+                {% endif %}
+            </p>
+        {% endfor %}
+        <input type="submit" value="Sign Up">
+    </form>
+    <a href="{% url 'login' %}">Have an account? Go to Log In</a>
+{% endblock content %}

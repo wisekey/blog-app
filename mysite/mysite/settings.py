@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.sitemaps',
     'django.contrib.postgres',
     'taggit',
+    'accounts.apps.AccountsConfig',
 ]
 
 SITE_ID = 1
@@ -143,3 +144,8 @@ EMAIL_HOST_PASSWORD = 'caitmlqeivnipavc'
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 SERVER_EMAIL = EMAIL_HOST_USER
 EMAIL_ADMIN = EMAIL_HOST_USER
+
+
+LOGIN_REDIRECT_URL  =  "/"
+
+SESSION_COOKIE_AGE = 60 * 60 * 24 * 30
