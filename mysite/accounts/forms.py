@@ -59,3 +59,19 @@ class LoginForm(AuthenticationForm):
             'password',
             'remember_me'
         ]
+
+
+class UpdateUserForm(forms.ModelForm):
+    username = forms.CharField(
+        max_length=100,
+        required=True,
+        widget=forms.TextInput()
+    )
+    email = forms.EmailField(
+        required=True,
+        widget=forms.TextInput()
+    )
+
+    class Meta:
+        model = User
+        fields = ['username', 'email']
