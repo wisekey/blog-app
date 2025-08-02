@@ -2,58 +2,51 @@ from django.contrib import admin
 from .models import Post, Comment
 
 
-admin.site.site_url = '/blog'
+admin.site.site_url = "/blog"
 
 
 @admin.register(Post)
 class PostAdmin(admin.ModelAdmin):
     list_display = [
-        'title',
-        'slug',
-        'author',
-        'publish',
-        'status',
+        "title",
+        "slug",
+        "author",
+        "publish",
+        "status",
     ]
     list_filter = [
-        'status',
-        'created',
-        'publish',
-        'author',
+        "status",
+        "created",
+        "publish",
+        "author",
     ]
     search_fields = [
-        'title',
-        'body',
+        "title",
+        "body",
     ]
-    prepopulated_fields = {
-        'slug': ('title', )
-    }
+    prepopulated_fields = {"slug": ("title",)}
 
-    autocomplete_fields = [
-        'author'
-    ]
-    date_hierarchy = 'publish'
-    ordering = [
-        'status',
-        'publish'
-    ]
+    autocomplete_fields = ["author"]
+    date_hierarchy = "publish"
+    ordering = ["status", "publish"]
 
 
 @admin.register(Comment)
 class CommentAdmin(admin.ModelAdmin):
     list_display = [
-        'name',
-        'email',
-        'post',
-        'created',
-        'active',
+        "name",
+        "email",
+        "post",
+        "created",
+        "active",
     ]
     list_filter = [
-        'active',
-        'created',
-        'active',
+        "active",
+        "created",
+        "active",
     ]
     search_fields = [
-        'name',
-        'email',
-        'body',
+        "name",
+        "email",
+        "body",
     ]
