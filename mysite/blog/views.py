@@ -9,22 +9,33 @@ from django.core.paginator import Paginator
 from taggit.models import Tag
 from django.db.models import Count
 from django.contrib.postgres.search import SearchVector
+from django.http import HttpRequest, HttpResponse
+from django.db.models import QuerySet
+from django.core.paginator import Page
+from typing import TypedDict
 
 
-def post_list(request, tag_slug=None):
-    post_list = Post.published.all()
+class PostListContext(TypedDict):
+    posts: Page[Post]
+    tag: Tag | None
 
-    tag = None
+
+def post_list(request: HttpRequest, tag_slug: str | None = None) -> HttpResponse:
+    post_list: QuerySet[Post] = Post.published.all()
+
+    tag: Tag | None = None
     if tag_slug:
         tag = get_object_or_404(Tag, slug=tag_slug)
         post_list = post_list.filter(tags__in=[tag])
 
     paginator = Paginator(post_list, 3)
-    page_number = request.GET.get("page", 1)
+    page_number: str = request.GET.get("page", 1)
 
-    posts = paginator.get_page(page_number)
+    posts: Page = paginator.get_page(page_number)
 
-    return render(request, "blog/post/list.html", {"posts": posts, "tag": tag})
+    context_data: PostListContext = {"posts": posts, "tag": tag}
+
+    return render(request, "blog/post/list.html", context=context_data)
 
 
 def post_detail(request, year, month, day, post):
@@ -96,7 +107,16 @@ def post_share(request, post_id):
 def post_comment(request, post_id):
     post = get_object_or_404(Post, id=post_id, status=Post.Status.PUBLISHED)
     comment = None
-    form = CommentForm(data=request.POST)
+
+    comment_post = request.POST.copy()
+
+    if request.user.is_authenticated:
+        comment_post["name"] = request.user.username
+        comment_post["email"] = request.user.email
+
+    form = CommentForm(data=comment_post)
+
+    print(form.is_valid())
     if form.is_valid():
         comment = form.save(commit=False)
         comment.post = post

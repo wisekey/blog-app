@@ -20,6 +20,7 @@ urlpatterns = [
     ),
     path("accounts/", include("accounts.urls")),
     path("accounts/", include("django.contrib.auth.urls")),
+    re_path(r"^oauth/", include("social_django.urls", namespace="social")),
 ]
 
 if settings.DEBUG:
