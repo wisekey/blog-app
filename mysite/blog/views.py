@@ -21,7 +21,7 @@ class PostListContext(TypedDict):
 
 
 def post_list(request: HttpRequest, tag_slug: str | None = None) -> HttpResponse:
-    post_list: QuerySet[Post] = Post.published.all()
+    post_list = Post.published.all()
 
     tag: Tag | None = None
     if tag_slug:
@@ -29,9 +29,8 @@ def post_list(request: HttpRequest, tag_slug: str | None = None) -> HttpResponse
         post_list = post_list.filter(tags__in=[tag])
 
     paginator = Paginator(post_list, 3)
-    page_number: str = request.GET.get("page", 1)
-
-    posts: Page = paginator.get_page(page_number)
+    page_number = request.GET.get("page", 1)
+    posts = paginator.get_page(page_number)
 
     context_data: PostListContext = {"posts": posts, "tag": tag}
 
