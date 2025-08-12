@@ -60,7 +60,7 @@ docker-compose exec web python manage.py loaddata mysite_data.json
 ```
 
 ### Структура проекта
-.
+```bash
 ├── accounts/          # Аутентификация и пользователи
 ├── blog/              # Основное приложение блога
 ├── blog_api/          # REST API endpoints
@@ -70,7 +70,7 @@ docker-compose exec web python manage.py loaddata mysite_data.json
 ├── .env               # Конфигурационные переменные
 ├── Dockerfile         # Конфигурация Docker
 └── docker-compose.yml # Оркестрация сервисов
-
+```
 ## Локальный запуск
 
 ```python
