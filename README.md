@@ -77,10 +77,22 @@ docker-compose exec web python manage.py loaddata mysite_data.json
 # Установка зависимостей
 pip install -r requirements.txt
 
+# Настройка БД
+sudo -u postgres psql -c "CREATE DATABASE blog;"
+sudo -u postgres psql -c "CREATE USER bloguser WITH PASSWORD 'blogpass';"
+sudo -u postgres psql -c "GRANT ALL PRIVILEGES ON DATABASE blog TO bloguser;"
+
 # Настройка .env файла
 echo "SECRET_KEY=your-secret-key" > .env
 echo "DEBUG=True" >> .env
-echo "DB_URL=postgres://user:pass@localhost:5432/blogdb" >> .env
+echo "POSTGRES_DB=postgres://user:pass@localhost:5432/blogdb" >> .env
+echo "POSTGRES_USER=admin" >> .env
+echo "POSTGRES_USER=admin" >> .env
+echo "POSTGRES_PASSWORD=admin" >> .env
+echo "DB_HOST=localhost" >> .env
+echo "DB_PORT=5432" >> .env
+
+# Для работы OAuth 2.0, заполните в .env GITHUB_KEY, GITHUB_SECRET, GOOGLE_KEY, GOOGLE_SECRET 
 
 # Запуск миграций
 python manage.py migrate
