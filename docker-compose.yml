@@ -4,16 +4,21 @@ services:
   web:
     build: .
     command: >
-      sh -c "python manage.py migrate &&
-             gunicorn mysite.wsgi:application --bind 0.0.0.0:8000"
+      sh -c "python manage.py wait_for_db &&
+             python manage.py migrate &&
+             python manage.py loaddata mysite_data.json &&
+             gunicorn --bind 0.0.0.0:8000 mysite.wsgi:application"
     volumes:
       - .:/app
+      - static_volume:/app/staticfiles
+      - media_volume:/app/media
     ports:
       - "8000:8000"
     env_file:
       - .env
     depends_on:
       - db
+    restart: unless-stopped
 
   db:
     image: postgres:16
@@ -23,6 +28,13 @@ services:
       POSTGRES_DB: ${POSTGRES_DB}
       POSTGRES_USER: ${POSTGRES_USER}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
 
 volumes:
   postgres_data:
+  static_volume:
+  media_volume:
