@@ -44,6 +44,7 @@ git clone https://github.com/yourusername/django-blog.git
 cd django-blog
 cp .env.example .env  # заполните настройки
 docker-compose up --build -d
+```
 
 ### Первоначальная настройка
 
@@ -51,13 +52,12 @@ docker-compose up --build -d
 # Применить миграции
 docker-compose exec web python manage.py migrate
 
-```bash
 # Создать администратора
 docker-compose exec web python manage.py createsuperuser
 
-```bash
 # Загрузить тестовые данные
 docker-compose exec web python manage.py loaddata mysite_data.json
+```
 
 ### Структура проекта
 .
@@ -73,7 +73,7 @@ docker-compose exec web python manage.py loaddata mysite_data.json
 
 ## Локальный запуск
 
-```bash
+```python
 # Установка зависимостей
 pip install -r requirements.txt
 
