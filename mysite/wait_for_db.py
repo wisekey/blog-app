@@ -4,7 +4,7 @@ from django.db import connections
 from django.db.utils import OperationalError
 
 def wait_for_db():
-    """Ждем пока БД будет готова"""
+   
     max_retries = 30
     retry_count = 0
     
