@@ -59,7 +59,6 @@ docker-compose exec web python manage.py createsuperuser
 docker-compose exec web python manage.py loaddata mysite_data.json
 ```
 
-```
 ## Local launch
 
 ```python
