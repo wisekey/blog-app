@@ -6,9 +6,9 @@
 [![Docker](https://img.shields.io/badge/Docker-24.0-2496ED?logo=docker)](https://www.docker.com/)
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-5-7952B3?logo=bootstrap)](https://getbootstrap.com/)
 
-Современный блог на Django с поддержкой Docker, PostgreSQL и REST API.
+A modern Django blog with support for Docker, PostgreSQL and REST API.
 
-## 🛠 Технологический стек
+## 🛠 Technology stack
 #### Backend
 - Django 5.2
 - Django REST Framework
@@ -22,67 +22,54 @@
 - HTML5/CSS3
 - Django Templates
 
-## ✨ Особенности
-- 🐳 Полная Docker-контейнеризация
-- 🗄️ PostgreSQL как основная СУБД
-- 🔐 Аутентификация через соцсети (GitHub/Google)
-- 📱 Адаптивный дизайн (Bootstrap 5)
+## ✨ Features
+- 🐳 Docker
+- 🗄️ PostgreSQL 
+- 🔐 OAuth 2.0
+- 📱 Adaptive design (Bootstrap 5)
 - 🌐 REST API (DRF)
-- ✉️ SMTP-рассылка (Yandex)
-- 🏷️ Система тегов (django-taggit)
+- ✉️ SMTP mailing list (Yandex)
+- 🏷️ Tag system (django-taggit)
 
-## 🚀 Быстрый старт
+## 🚀 Quick start
 
-### Требования
+### Requirements
 - Docker 24.0+
 - Docker Compose 2.0+
 - Python 3.11
 
-### Установка
+### Installation
 ```bash
 git clone https://github.com/yourusername/django-blog.git
-cd django-blog
-cp .env.example .env  # заполните настройки
+cd app-name
+cp .env.example .env
 docker-compose up --build -d
 ```
 
 ### Первоначальная настройка
 
 ```bash
-# Применить миграции
+# Apply migrations
 docker-compose exec web python manage.py migrate
 
-# Создать администратора
+# Create admin
 docker-compose exec web python manage.py createsuperuser
 
-# Загрузить тестовые данные
+# Load data
 docker-compose exec web python manage.py loaddata mysite_data.json
 ```
 
-### Структура проекта
-```bash
-├── accounts/          # Аутентификация и пользователи
-├── blog/              # Основное приложение блога
-├── blog_api/          # REST API endpoints
-├── mysite/            # Конфигурация проекта
-├── templates/         # HTML шаблоны
-├── media/             # Загружаемые файлы
-├── .env               # Конфигурационные переменные
-├── Dockerfile         # Конфигурация Docker
-└── docker-compose.yml # Оркестрация сервисов
 ```
-## Локальный запуск
+## Local launch
 
 ```python
-# Установка зависимостей
+
 pip install -r requirements.txt
 
-# Настройка БД
 sudo -u postgres psql -c "CREATE DATABASE blog;"
 sudo -u postgres psql -c "CREATE USER bloguser WITH PASSWORD 'blogpass';"
 sudo -u postgres psql -c "GRANT ALL PRIVILEGES ON DATABASE blog TO bloguser;"
 
-# Настройка .env файла
 echo "SECRET_KEY=your-secret-key" > .env
 echo "DEBUG=True" >> .env
 echo "POSTGRES_DB=postgres://user:pass@localhost:5432/blogdb" >> .env
@@ -92,11 +79,9 @@ echo "POSTGRES_PASSWORD=admin" >> .env
 echo "DB_HOST=localhost" >> .env
 echo "DB_PORT=5432" >> .env
 
-# Для работы OAuth 2.0, заполните в .env GITHUB_KEY, GITHUB_SECRET, GOOGLE_KEY, GOOGLE_SECRET 
+# For OAuth 2.0, fill into .env GITHUB_KEY, GITHUB_SECRET, GOOGLE_KEY, GOOGLE_SECRET 
 
-# Запуск миграций
 python manage.py migrate
 
-# Запуск сервера
 python manage.py runserver
 ```
