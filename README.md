@@ -46,7 +46,7 @@ cp .env.example .env
 docker-compose up --build -d
 ```
 
-### Первоначальная настройка
+### First-step Installation
 
 ```bash
 # Apply migrations
